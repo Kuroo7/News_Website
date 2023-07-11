@@ -33,7 +33,7 @@ const Body = () => {
 
     useEffect(() => {
         //Api call
-        getRestaurants("https://newsapi.org/v2/everything?q=india&from=2023-05-22&sortBy=publishedAt&apiKey=42b7e5e51c22452381b26ce31c67d2a8")
+        getRestaurants("https://newsapi.org/v2/everything?q=india&from=2023-07-10&sortBy=publishedAt&apiKey=42b7e5e51c22452381b26ce31c67d2a8")
     }, [])
 
     async function getRestaurants(api) {
